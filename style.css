@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+  
+.header {
+    height: 40px;
+    margin: 5px;
+}
+  
+.filler {
+    color: #999;
+}
+.sidebar {
+    background-color: rgb(209, 209, 209);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
+    padding: 8px;
+    height: 44px;
+}
+  
+#navigation {
+    font-size: 14pt;
+    margin: 4px;
+}
+  
+#navigation a {
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+#navigation a:hover {
+    background-color: #66f;
+}
+  
+#content {
+     margin: 5px; /* Add a top margin to avoid content overlay */
+}

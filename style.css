@@ -2,42 +2,13 @@ body {
     margin: 0px;
     font-size: 17px
 }
-  
-.header {
-    height: 40px;
-    margin: 0px;
-}
-  
-.filler {
-    color: #999;
-    
-}
-.sidebar {
-    background-color: rgb(209, 209, 209);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    float: right;
-    padding: 8px;
-    height: 44px;
-    width: 100%;
-}
-  
-#navigation {
-    font-size: 13pt;
-    margin: 4px;
-}
-  
-#navigation a {
-    text-decoration: none;
-    font-weight: bold;
-}
-  
-#navigation a:hover {
-    background-color: #66f;
-}
-  
-#content {
+
+#playground {
      margin: 5px; /* Add a top margin to avoid content overlay */
      text-align: justify
+}
+
+.header {
+    height: 30px;
+    margin: 0px;
 }

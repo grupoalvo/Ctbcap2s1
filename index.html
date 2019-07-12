@@ -13,7 +13,8 @@
 
         <!--Pesquisa-->
         <link rel="stylesheet" href="style.css"/>
-        <script src="highlight.js"></script>
+        <script src="hilitor-utf8.js"></script>
+        <script src="button.js"></script>
 
         <title>Olá, mundo!</title>
     </head>
@@ -21,16 +22,22 @@
     <body>
     
         <!--Começo da página-->
-        
-        <div class="sidebar">
-            Pesquisar: <input id="searchWords" onchange="findSingleTerm()" type="text" />
-            <br/>
-            <div id="navigation"></div>
+        <div class="header">
+            <form style="position: fixed; margin: 0px; background-color: lightgray; width: 100%; height: 35px">
+                <p>Pesquisar:<input id="keywords" size="24" placeholder="Termo" autofocus>
+                    <small>
+                            <span id="counter" style="color: blue;"><!-- --></span>
+                            <span id="navigate" style="display: inline;">
+                                <button id="cancel">×</button>
+                                <button id="prev">«</button>
+                                <button id="next">»</button>
+                            </span>
+                    </small>
+                </p>
+            </form>
         </div>
-
-        <div class="header"></div>
         
-        <div id="content">
+        <div id="playground" style="margin: 1em 0; height: 100%; overflow: auto;">
                       
             <p style="text-align: center"><strong>CAPÍTULO II<br> DO SISTEMA NACIONAL DE TRÂNSITO</strong></p>
             <br>
@@ -50,8 +57,10 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
         <!-- Pesquisa -->
-        <script src="highlight.js"></script>
-
+        <script src="hilitor-utf8.js"></script>
+        <script src="button.js"></script>
+        
     </body>
 </html>

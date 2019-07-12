@@ -1,14 +1,16 @@
 body {
     margin: 0px;
+    font-size: 17px
 }
   
 .header {
     height: 40px;
-    margin: 5px;
+    margin: 0px;
 }
   
 .filler {
     color: #999;
+    
 }
 .sidebar {
     background-color: rgb(209, 209, 209);
@@ -18,10 +20,11 @@ body {
     float: right;
     padding: 8px;
     height: 44px;
+    width: 100%;
 }
   
 #navigation {
-    font-size: 14pt;
+    font-size: 13pt;
     margin: 4px;
 }
   
@@ -36,4 +39,5 @@ body {
   
 #content {
      margin: 5px; /* Add a top margin to avoid content overlay */
+     text-align: justify
 }
